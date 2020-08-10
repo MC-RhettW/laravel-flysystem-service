@@ -1,15 +1,37 @@
 {
-    "name": "danhunsaker/laravel-flysystem-service",
-    "description": "Automatically registers every Flysystem adapter it recognizes as a Laravel Filesystem Driver.",
-    "keywords": ["laravel", "flysystem"],
+    "name": "mcdev/laravel-flysystem-service",
+    "description": "Registers recognized Flysystem adapters with Laravel automatically.",
+    "keywords": [
+        "laravel",
+        "dev",
+        "console",
+        "filesystem",
+        "flysystem",
+        "drivers",
+        "support",
+        "library"
+    ],
+    "type": "library",
     "license": "MIT",
-    "authors": [{
-        "name": "Daniel Hunsaker",
-        "email": "danhunsaker@gmail.com"
-    }],
+    "support": {
+        "issues": "https://collab.devteam.mankatoclinic.com/",
+        "source": "https://github.com/MC-RhettW/laravel-flysystem-others"
+    },
+    "authors": [
+        {
+            "name": "Rhett Waldock",
+            "email": "RhettW@MankatoClinic.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Daniel Hunsaker",
+            "email": "danhunsaker@gmail.com",
+            "role": "Developer (upstream)"
+        }
+    ],
     "require": {
-        "illuminate/support": "^5.0 || ^6.0",
-        "illuminate/filesystem": "^5.0 || ^6.0",
+        "illuminate/support": ">=5.0",
+        "illuminate/filesystem": ">=5.0",
         "league/flysystem": "^1.0"
     },
     "require-dev": {
@@ -34,7 +56,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Danhunsaker\\Laravel\\Flysystem\\": "src/"
+            "MCDev\\Flysystem\\": "src/"
         }
     },
     "extra": {
@@ -43,7 +65,7 @@
         },
         "laravel": {
             "providers": [
-                "Danhunsaker\\Laravel\\Flysystem\\FlysystemServiceProvider"
+                "MCDev\\FlysystemServiceProvider"
             ]
         }
     }

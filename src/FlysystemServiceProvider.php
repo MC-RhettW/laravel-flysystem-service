@@ -1,14 +1,14 @@
 <?php
 
-namespace Danhunsaker\Laravel\Flysystem;
+namespace MCDev\Flysystem;
 
-use Danhunsaker\Laravel\Flysystem\FlysystemManager;
 use Illuminate\Filesystem\FilesystemServiceProvider;
+
 
 class FlysystemServiceProvider extends FilesystemServiceProvider
 {
     protected static $fsClass;
-
+    
     /**
      * Bootstrap the application services.
      *

@@ -1,11 +1,12 @@
 <?php
 
-namespace Danhunsaker\Laravel\Flysystem;
+namespace MCDev\Flysystem;
 
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Arr;
 use League\Flysystem\AdapterInterface;
 use Log;
+
 
 class FlysystemManager extends FilesystemManager
 {
