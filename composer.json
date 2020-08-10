@@ -65,7 +65,7 @@
         },
         "laravel": {
             "providers": [
-                "MCDev\\FlysystemServiceProvider"
+                "MCDev\\Flysystem\\FlysystemServiceProvider"
             ]
         }
     }
