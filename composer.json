@@ -32,7 +32,9 @@
     "require": {
         "illuminate/support": ">=5.0",
         "illuminate/filesystem": ">=5.0",
-        "league/flysystem": "^1.0"
+        "league/flysystem": "^1.0",
+        "illuminate/log": "9.x-dev",
+        "php": "^7.4 || ^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5"

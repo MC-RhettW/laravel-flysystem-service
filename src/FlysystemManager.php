@@ -4,8 +4,8 @@ namespace MCDev\Flysystem;
 
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Log;
 use League\Flysystem\AdapterInterface;
-use Log;
 
 
 class FlysystemManager extends FilesystemManager
